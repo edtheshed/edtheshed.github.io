@@ -8,8 +8,7 @@ paginate     = 1
 # Metadata mostly used in document's head
 description = "CodeBass io"
 keywords = "codebass, software"
-images = ["static/images/tn.png"]
-background-image = "static/images/tn.png"
+images = []
 
 [languages]
 [languages.en]
@@ -48,6 +47,7 @@ contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
 publishDir   = "public"
+staticDir   = "static"
 
 buildDrafts  = false
 buildFuture  = false
@@ -84,6 +84,8 @@ dateform        = "Jan 2, 2006"
 dateformShort   = "Jan 2"
 dateformNum     = "2006-01-02"
 dateformNumTime = "2006-01-02 15:04"
+backgroundImage = "static/images/background.png"
+backgroundEffects = false
 
 # Metadata mostly used in document's head
 #
@@ -163,7 +165,7 @@ justifyContent = false  # Set "text-align: justify" to .post-content.
 # If you want, you can easily override the default footer with your own content.
 #
 [params.fontAwesome]
-KitURL = "https://kit.fontawesome.com/KitID.js"
+KitURL = "https://kit.fontawesome.com/7e5f71b3c7.js"
 
 [params.footer]
 trademark = true
@@ -224,7 +226,7 @@ logoHomeLink = "/"
 [[params.social]]
 name = "email"
 url  = "mailto:edward@codebass.io"
-icon = ["fa-solid", "fa-envelope"]
+icon = "fa-regular fa-envelope"
 
 [[params.social]]
 name = "github"
@@ -237,6 +239,7 @@ url  = "https://www.linkedin.com/in/edwardrixon/"
 [[params.social]]
 name = "stackoverflow"
 url  = "https://stackoverflow.com/users/4712288/edward-rixon"
+icon = "fa-brands fa-stack-overflow"
 
 
 #[menu]
