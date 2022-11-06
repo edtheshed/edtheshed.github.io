@@ -163,7 +163,7 @@ KitURL = "https://kit.fontawesome.com/7e5f71b3c7.js"
 
 [params.footer]
 trademark = true
-rss = true
+rss = false
 copyright = true
 author = true
 

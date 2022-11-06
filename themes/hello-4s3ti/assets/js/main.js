@@ -6,7 +6,8 @@
  *
  */
 const themeToggle = document.querySelector(".theme-toggle");
-const chosenTheme = window.localStorage && window.localStorage.getItem("theme");
+//const chosenTheme = window.localStorage && window.localStorage.getItem("theme");
+const chosenTheme = "dark";
 const chosenThemeIsDark = chosenTheme == "dark";
 const chosenThemeIsLight = chosenTheme == "light";
 
