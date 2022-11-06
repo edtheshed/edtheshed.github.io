@@ -5,6 +5,8 @@
  * the theme choice of the user.
  *
  */
+document.documentElement.setAttribute("data-theme", "dark");
+
 const themeToggle = document.querySelector(".theme-toggle");
 //const chosenTheme = window.localStorage && window.localStorage.getItem("theme");
 const chosenTheme = "dark";
