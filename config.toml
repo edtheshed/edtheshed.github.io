@@ -100,12 +100,6 @@ homeTitle = "codebass.io"
 #
 homeSubtitle = "CodeBass Ltd by Edward Rixon"
 
-# Set a background for the homepage
-# backgroundImage = "assets/images/background.jpg"
-
-# Adds a dark overlay over the background
-# backgroundEffects = false
-
 # Prefix of link to the git commit detail page. GitInfo must be enabled.
 #
 # gitUrl = ""
@@ -123,7 +117,7 @@ defaultTheme = "dark"
 # Per default, this option is off.
 # The theme is respecting the prefers-color-scheme of the operating systeme.
 # With this option on, the page user is able to set the scheme he wants.
-enableThemeToggle = true
+enableThemeToggle = false
 
 # Sharing buttons
 #
