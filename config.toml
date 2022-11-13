@@ -241,6 +241,10 @@ icon = "fa-brands fa-stack-overflow"
 
 [menu]
 [[menu.main]]
+identifier = "home"
+name       = "home"
+url        = "/"
+[[menu.main]]
 identifier = "services"
 name       = "services"
 url        = "services/"
