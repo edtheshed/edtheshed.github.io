@@ -1,8 +1,16 @@
+{{ define "body" }}
+    {{ if .Site.Params.backgroundEffects }}
+        <body class="{{ if .Site.Params.postBackgroundImage }} bg" style="background-image: url('{{ .Site.Params.postBackgroundImage }}');" {{ else }}"{{ end }}>
+    {{ else }}
+        <body class="{{ if .Site.Params.postBackgroundImage }} background-image" style="background-image: url('{{ .Site.Params.postBackgroundImage }}');" {{ else }}"{{ end }}>
+    {{ end }}
+{{ end }}
+
 {{ define "main" }}
     {{ $paginator := .Paginate .Data.Pages }}
     
     <main class="posts">
-        <h1>{{ .Title }}</h1>
+        <h3>{{ .Title }}</h3>
 
         {{ if .Content }}
             <div class="content">{{ .Content }}</div>

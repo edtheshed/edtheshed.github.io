@@ -23,8 +23,10 @@ logoText = "codebass.io"
 logoHomeLink = "/"
 # or
 #
-# path = "/img/your-example-logo.svg"
+#path = "/img/clown-fish.png"
 # alt = "Your example logo alt text"
+
+# Favicon info https://github.com/rhazdon/hugo-theme-hello-friend-ng/blob/master/docs/favicons.md
 
 # And you can even create generic menu
 #[[menu.main]]
@@ -85,6 +87,7 @@ dateformShort   = "Jan 2"
 dateformNum     = "2006-01-02"
 dateformNumTime = "2006-01-02 15:04"
 backgroundImage = "img/background.png"
+postBackgroundImage = "../img/servicesBackground.png"
 backgroundEffects = true
 
 # Metadata mostly used in document's head
@@ -228,7 +231,7 @@ url  = "https://github.com/edtheshed"
 
 [[params.social]]
 name = "linkedin"
-url  = "https://www.linkedin.com/in/edwardrixon/"
+url  = "https://www.linkedin.com/company/codebass-ltd"
 
 [[params.social]]
 name = "stackoverflow"
@@ -236,11 +239,11 @@ url  = "https://stackoverflow.com/users/4712288/edward-rixon"
 icon = "fa-brands fa-stack-overflow"
 
 
-#[menu]
-#[[menu.main]]
-#identifier = "about"
-#name       = "About"
-#url        = "about/"
+[menu]
+[[menu.main]]
+identifier = "services"
+name       = "services"
+url        = "services/"
 #[[menu.main]]
 #identifier = "posts"
 #name       = "Posts"
