@@ -2,7 +2,7 @@ baseURL = 'https://codebass.io/'
 languageCode = 'en-us'
 title = 'CodeBass Ltd'
 theme = "hello-4s3ti"
-now = "2023"
+now = "2024"
 
 paginate     = 1
 
