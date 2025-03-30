@@ -4,8 +4,6 @@ title = 'CodeBass Ltd'
 theme = "hello-4s3ti"
 now = "2025"
 
-paginate     = 1
-
 # Metadata mostly used in document's head
 description = "CodeBass io"
 keywords = "codebass, software"
@@ -38,6 +36,7 @@ logoHomeLink = "/"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
+[pagination]
 pagerSize = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
