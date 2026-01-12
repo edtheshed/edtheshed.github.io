@@ -15,6 +15,10 @@ startup. I live in London with my wife, Eloise. As of today, I have been job sea
 
 Apart from tech, my main thing is calisthenics, having trained since 2020.
 
+In this blog you can expect to read about my technical learnings, job searching, calisthenics training, and more.
+
 Enjoy the read.
 
-x
+✌️x
+
+{{< slideshow "/img/hello/IMG_3358.jpeg" "/img/hello/IMG_3598.jpeg" "/img/hello/IMG_3679.jpeg" "/img/hello/IMG_4614.jpeg" >}}

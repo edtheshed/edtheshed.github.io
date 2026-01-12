@@ -1,0 +1,45 @@
+<div class="slideshow">
+    {{ range $index, $image := .Params }}
+    <img src="{{ $image }}" class="slide {{ if eq $index 0 }}active{{ end }}" alt="Slideshow image {{ add $index 1 }}">
+    {{ end }}
+</div>
+
+<style>
+.slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    aspect-ratio: 4/3;
+}
+
+.slideshow .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slideshow .slide.active {
+    opacity: 1;
+}
+</style>
+
+<script>
+(function() {
+    const slideshow = document.currentScript.previousElementSibling.previousElementSibling;
+    const slides = slideshow.querySelectorAll('.slide');
+    let current = 0;
+
+    setInterval(function() {
+        slides[current].classList.remove('active');
+        current = (current + 1) % slides.length;
+        slides[current].classList.add('active');
+    }, 3000);
+})();
+</script>
