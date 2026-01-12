@@ -15,19 +15,10 @@
       </p>
       <p>
         <i class="fa-solid fa-calendar-days"></i>
-        {{ if .Site.Params.dateformNumTime }}
-          {{ dateFormat .Site.Params.dateformNumTime .Date.Local }}
-        {{ else }}
-          {{ dateFormat "2006-01-02 15:04" .Date.Local }}
-        {{ end }}
-
+        {{ dateFormat "2006-01-02" .Date.Local }}
         {{ if .Lastmod }}
           {{ if not (eq .Lastmod .Date )}}
-            {{ if .Site.Params.dateformNumTime }}
-              ({{ i18n "lastModified" }}: {{ dateFormat .Site.Params.dateformNumTime .Lastmod.Local }})
-            {{ else }}
-              ({{ i18n "lastModified" }}: {{ dateFormat "2006-01-02 15:04" .Lastmod.Local }})
-            {{ end }}
+            ({{ i18n "lastModified" }}: {{ dateFormat "2006-01-02" .Lastmod.Local }})
           {{ end }}
         {{ end }}
       </p>
