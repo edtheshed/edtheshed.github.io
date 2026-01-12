@@ -81,6 +81,8 @@ category = "categories"
 series   = "series"
 
 [params]
+google_analytics = "G-04ZDMXN8VT"
+
 dateform        = "Jan 2, 2006"
 dateformShort   = "Jan 2"
 dateformNum     = "2006-01-02"
