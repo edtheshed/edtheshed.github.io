@@ -22,7 +22,8 @@ main[aria-role="main"] > div > p {
     align-items: flex-start;
 }
 
-.blog-layout > .posts {
+.blog-layout > .posts,
+.blog-layout > .post {
     flex: 1;
     min-width: 0;
 }
@@ -32,6 +33,24 @@ main[aria-role="main"] > div > p {
     flex-shrink: 0;
     position: relative;
     z-index: 4;
+}
+
+.sidebar-profile {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.blog-layout > .post ~ .blog-sidebar .sidebar-profile {
+    margin-top: 2rem;
+}
+
+.sidebar-profile .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
 }
 
 .blog-sidebar .sidebar-section {
