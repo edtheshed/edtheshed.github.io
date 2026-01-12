@@ -1,0 +1,118 @@
+/* Home page subtitle width */
+main[aria-role="main"] > div > p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+/* Fix theme overlay blocking clicks */
+.bg:before,
+.bg:after {
+    pointer-events: none;
+}
+
+/* Blog layout with sidebar */
+.blog-layout {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.blog-layout > .posts {
+    flex: 1;
+    min-width: 0;
+}
+
+.blog-sidebar {
+    width: 280px;
+    flex-shrink: 0;
+}
+
+.blog-sidebar .sidebar-section {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.blog-sidebar .sidebar-section h4 {
+    margin: 0 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+/* Archive list */
+.blog-sidebar .archive-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.blog-sidebar .archive-list li {
+    padding: 0.4rem 0;
+}
+
+.blog-sidebar .archive-list a {
+    color: #67a2c9;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.blog-sidebar .archive-list a:hover {
+    text-decoration: underline;
+}
+
+.blog-sidebar .archive-list a.active {
+    font-weight: bold;
+    color: #fff;
+}
+
+.blog-sidebar .archive-list .count {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.85em;
+    margin-left: 0.3rem;
+}
+
+/* Tag cloud */
+.blog-sidebar .tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.blog-sidebar .tag-cloud .tag {
+    display: inline-block;
+    background: #67a2c9;
+    color: #1b1c1d;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.85em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.blog-sidebar .tag-cloud .tag:hover {
+    background: #5a91b8;
+}
+
+.blog-sidebar .tag-cloud .tag.active {
+    background: #fff;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .blog-layout {
+        flex-direction: column;
+    }
+
+    .blog-sidebar {
+        width: 100%;
+        order: -1;
+    }
+}
