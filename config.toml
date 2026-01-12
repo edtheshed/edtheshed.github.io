@@ -2,7 +2,6 @@ baseURL = 'https://codebass.io/'
 languageCode = 'en-us'
 title = 'CodeBass Ltd'
 theme = "hello-4s3ti"
-now = "2025"
 
 # Metadata mostly used in document's head
 description = "CodeBass io"
@@ -101,7 +100,7 @@ homeTitle = "codebass.io"
 
 # Home subtitle of the index page.
 #
-homeSubtitle = "CodeBass Ltd by Edward Rixon"
+homeSubtitle = "CodeBass provides an expert software development service. With experience in multiple industries, across multiple paradigms, CodeBass can be entrusted to help your business reach the next level."
 
 # Prefix of link to the git commit detail page. GitInfo must be enabled.
 #
@@ -245,13 +244,9 @@ identifier = "home"
 name       = "home"
 url        = "/"
 [[menu.main]]
-identifier = "services"
-name       = "services"
-url        = "services/"
-#[[menu.main]]
-#identifier = "posts"
-#name       = "Posts"
-#url        = "posts/"
+identifier = "blog"
+name       = "blog"
+url        = "posts/"
 #[[menu.main]]
 #identifier = "tools"
 #name       = "Tools"
