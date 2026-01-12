@@ -20,20 +20,21 @@ I have got into weighted cali, then went back to my original yoga studio. It has
 Fields and met some people I will consider friends for the rest of my life. The combination of training outside,
 training for free, and the magic of moving your body through space in an amazing aesthetic way, just results in such a
 magical activity. That it also is so good for your health and longevity, it really is an incredible thing.</p>
-<p>Anyway, this post is about the future and my cali goals for this year! They are:</p>
+<p>Enough about the past - let me tell you what I&rsquo;m working towards this year! My goals are:</p>
 <ul>
 <li>20 second handstand</li>
 <li>5 second front lever</li>
 <li>Handstand push-up</li>
 <li>Backwards roll on rings</li>
 </ul>
-<p>Handstand has been an incredibly difficult skill for me! It has taken me so long to get to where I am now, and I am
+<p>The handstand has been an incredibly difficult skill for me. It has taken me so long to get to where I am now, and I am
 still very unsatisfied. A good hold maybe lasts for 7-8 seconds, but they are so inconsistent. This is the year!</p>
 <p>I can hold a straddle front lever for 1-2 seconds. This will come with time.</p>
 <p>I have an ok shoulder stand on the ground. This will come along with the handstand.</p>
 <p>Backwards roll is a deceivingly difficult skill, but as part of a rings flow, it will look sick.</p>
-<p>Maybe I am being ambitious with these. But 3 push goals (the hard bit of backwards roll is basically a bent arm planche),
-and 1 pull goal, they should be ok. And apart from that, maybe I will do a bit more running. Need to get some shoes first&hellip;</p>
+<p>Maybe I am being ambitious with these. But 3 push goals (the hard bit of backwards roll is basically a bent arm
+planche), and 1 pull goal, they should be ok. And apart from that, maybe I will do a bit more running. Need to get some
+shoes first&hellip;</p>
 <p>Keep an eye out for updates!</p>
 <p>✌️x</p>
 ]]></content></item><item><title>Hello World</title><link>https://codebass.io/posts/2026/01/hello-world/</link><pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate><guid>https://codebass.io/posts/2026/01/hello-world/</guid><description>&lt;p&gt;Welcome to the CodeBass blog.&lt;/p&gt;
@@ -45,6 +46,59 @@ startup. I live in London with my wife, Eloise. As of today, I have been job sea
 <p>My name is Edward Rixon. I have been a software developer since 2015. I have worked in a few consultancies, and a tech
 startup. I live in London with my wife, Eloise. As of today, I have been job searching for the last 5 months.</p>
 <p>Apart from tech, my main thing is calisthenics, having trained since 2020.</p>
+<p>In this blog you can expect to read about my technical learnings, job searching, calisthenics training, and more.</p>
 <p>Enjoy the read.</p>
-<p>x</p>
+<p>✌️x</p>
+<div class="slideshow">
+    
+    <img src="/img/hello/IMG_3358.jpeg" class="slide active" alt="Slideshow image 1">
+    
+    <img src="/img/hello/IMG_3598.jpeg" class="slide " alt="Slideshow image 2">
+    
+    <img src="/img/hello/IMG_3679.jpeg" class="slide " alt="Slideshow image 3">
+    
+    <img src="/img/hello/IMG_4614.jpeg" class="slide " alt="Slideshow image 4">
+    
+</div>
+
+<style>
+.slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    aspect-ratio: 4/3;
+}
+
+.slideshow .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slideshow .slide.active {
+    opacity: 1;
+}
+</style>
+
+<script>
+(function() {
+    const slideshow = document.currentScript.previousElementSibling.previousElementSibling;
+    const slides = slideshow.querySelectorAll('.slide');
+    let current = 0;
+
+    setInterval(function() {
+        slides[current].classList.remove('active');
+        current = (current + 1) % slides.length;
+        slides[current].classList.add('active');
+    }, 3000);
+})();
+</script>
+
 ]]></content></item></channel></rss>
