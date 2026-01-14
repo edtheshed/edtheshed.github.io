@@ -189,3 +189,125 @@ h1, h2, h3, h4, h5, h6 {
 [data-theme="light"] .blog-sidebar .archive-list a.active {
     color: #222;
 }
+
+/* Terminal window styling */
+.terminal-window {
+    max-width: 500px;
+    margin: 3.5rem auto 2rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+}
+
+.terminal-header {
+    background: #3b3d42;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.terminal-controls {
+    display: flex;
+    gap: 8px;
+}
+
+.terminal-control {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.terminal-control.close {
+    background: #ff5f56;
+}
+
+.terminal-control.minimize {
+    background: #ffbd2e;
+}
+
+.terminal-control.maximize {
+    background: #27ca40;
+}
+
+.terminal-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.terminal-body {
+    background: #1b1c1d;
+    padding: 1rem 1.2rem;
+    min-height: 80px;
+}
+
+.terminal-line {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 0.8rem;
+    flex-wrap: wrap;
+}
+
+.terminal-prompt {
+    color: #56b6c2;
+    font-weight: 600;
+}
+
+.terminal-arrow {
+    color: #27ca40;
+    font-weight: bold;
+}
+
+.terminal-command {
+    color: #e5e5e5;
+}
+
+.terminal-cursor {
+    display: inline-block;
+    width: 8px;
+    height: 1rem;
+    background: #e5e5e5;
+    margin-left: 4px;
+    vertical-align: middle;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+.terminal-output {
+    padding-left: 0;
+}
+
+.terminal-link {
+    display: inline-block;
+    color: #61afef;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    white-space: pre;
+    line-height: 1.2;
+}
+
+.terminal-link:hover {
+    color: #98c379;
+}
+
+/* Light theme terminal adjustments */
+[data-theme="light"] .terminal-header {
+    background: #e0e0e0;
+}
+
+[data-theme="light"] .terminal-title {
+    color: #666;
+}
+
+[data-theme="light"] .terminal-body {
+    background: #2d2d2d;
+}
