@@ -1,4 +1,60 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on codebass.io</title><link>https://codebass.io/posts/</link><description>Recent content in Blog on codebass.io</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener"&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><lastBuildDate>Sun, 11 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://codebass.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Calisthenics goals</title><link>https://codebass.io/posts/2026/01/calisthenics-goals/</link><pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate><guid>https://codebass.io/posts/2026/01/calisthenics-goals/</guid><description>&lt;p&gt;Let me give a quick background of my fitness journey, and then we can move to the future.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on codebass.io</title><link>https://codebass.io/posts/</link><description>Recent content in Blog on codebass.io</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener"&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://codebass.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude Code</title><link>https://codebass.io/posts/2026/01/claude-code/</link><pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate><guid>https://codebass.io/posts/2026/01/claude-code/</guid><description>&lt;p&gt;Since the AI train left the station a few years back, I have been using ChatGPT a bit to help with my coding. I
+definitely didn&amp;rsquo;t integrate it into my work as much as some people. I never downloaded cursor, sparingly used co-pilot,
+and found the chat and code integration in IntelliJ and vsCode left a lot to be desired.&lt;/p&gt;
+&lt;p&gt;My main usage workflow would be something like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;code like normal&lt;/li&gt;
+&lt;li&gt;see some error during some troubleshooting&lt;/li&gt;
+&lt;li&gt;paste the error into ChatGPT&lt;/li&gt;
+&lt;li&gt;go back and forth manually between the IDE and ChatGPT until I fixed the issue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Very manual, but I felt pretty good about it. I wasn&amp;rsquo;t depending on AI too much, I was still doing most of the coding,
+so I felt that using ChatGPT to step in to get me unstuck was a perfectly good thing.&lt;/p&gt;</description><content type="html"><![CDATA[<p>Since the AI train left the station a few years back, I have been using ChatGPT a bit to help with my coding. I
+definitely didn&rsquo;t integrate it into my work as much as some people. I never downloaded cursor, sparingly used co-pilot,
+and found the chat and code integration in IntelliJ and vsCode left a lot to be desired.</p>
+<p>My main usage workflow would be something like:</p>
+<ul>
+<li>code like normal</li>
+<li>see some error during some troubleshooting</li>
+<li>paste the error into ChatGPT</li>
+<li>go back and forth manually between the IDE and ChatGPT until I fixed the issue</li>
+</ul>
+<p>Very manual, but I felt pretty good about it. I wasn&rsquo;t depending on AI too much, I was still doing most of the coding,
+so I felt that using ChatGPT to step in to get me unstuck was a perfectly good thing.</p>
+<p>I was speaking to a recruiter, who asked me what my experience was with using AI in my work, and I basically said the
+above. But it was clear they were after someone who uses AI much more than I do. It wasn&rsquo;t that they were trying to
+develop some MCP functionality for their product, they just want developers who are fluent with the tools they think
+are worthwhile.</p>
+<p>So last week I downloaded Claude Code. Unbeknownst to me, they had launched v2.1.0 the day before. So I came in at just
+the right time. After using it for a week, I am super impressed! I have done work on my side project, and on this
+website in particular. The pace at which Claude can do things in the repo is astounding. For eg. the fun terminal
+window on <a href="http://codebass.io">the home page</a> with the ascii button for the blog was created by Claude in about 5
+minutes. Could I have done that myself? Yea sure, but it would&rsquo;ve taken like 10-20 times longer.</p>
+<p>And it&rsquo;s not just the speed at which Claude can produce which is impressive. I have also used it to go back through some
+old work project, to help me understand and remember the complexity, in order to be well-prepared for my next few
+interviews. It has produced some super helpful documents, which I really wish I had when I was actually working on the
+project! When making complex changes, it automatically goes into plan mode, where it will create a step-by-step
+plan and then get agreement, then execute. There are also plugins and skills which can really expand and improve its
+capabilities, and <a href="https://github.com/ChrisWiles/claude-code-showcase">this repo</a> has some neat ideas around making
+Claude behave in your work repo.</p>
+<p>And finally, looking forward, this is going to be such an amazing tool for everyone. I really believe the time of
+democratised coding has arrived. Sure, the code it produces for coding beginners isn&rsquo;t going to be production ready, but
+does that really matter?</p>
+<p>How many people have wanted to scrape a website to track price changes, or build a quick script to
+organize thousands of photos by date, or create a custom dashboard to track their side hustle metrics? Before, you&rsquo;d
+need to either learn to code properly (massive time investment) or pay a developer (expensive for a one-off thing). Now
+you can just describe what you want and iterate with Claude until it works.</p>
+<p>These aren&rsquo;t apps that need to scale or be maintained for years. They&rsquo;re tools that solve immediate, personal problems.
+Someone might want to analyze their poker session data from multiple apps - would&rsquo;ve cost them £500 to hire someone
+for a weekend, took him an afternoon with Claude instead. Or another may need to batch convert and rename files for
+their small business - something that would&rsquo;ve taken them hours manually, Claude knocked out in minutes.</p>
+<p>Yea, some people will try to build the next big SaaS (lol good luck with that 😅), but most people are just going to
+automate annoying parts of their life or work. And that&rsquo;s actually huge. That&rsquo;s the real democratisation - not everyone
+becoming a software engineer, but everyone getting access to custom software for their specific needs.</p>
+<p>Or they download the new <a href="https://claude.com/blog/cowork-research-preview">Claude Cowork</a> and the possibilities are
+endless. This is still just the beginning&hellip;</p>
+<p>✌️x</p>
+]]></content></item><item><title>Calisthenics goals</title><link>https://codebass.io/posts/2026/01/calisthenics-goals/</link><pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate><guid>https://codebass.io/posts/2026/01/calisthenics-goals/</guid><description>&lt;p&gt;Let me give a quick background of my fitness journey, and then we can move to the future.&lt;/p&gt;
 &lt;p&gt;Up until the age of 26, I had basically never seriously trained. I was always quite light, and I was pretty good at push
 ups and pulls ups, I had done some running. But I had never done anything consistently. This changed one day when a
 friend and I went to a trampoline park, which had a climbing traverse wall. We gave it a go, and it was fun. But it

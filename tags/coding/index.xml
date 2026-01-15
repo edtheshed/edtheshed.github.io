@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Coding on codebass.io</title><link>https://codebass.io/tags/coding/</link><description>Recent content in Coding on codebass.io</description><generator>Hugo</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener"&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://codebass.io/tags/coding/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude Code</title><link>https://codebass.io/posts/2026/01/claude-code/</link><pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate><guid>https://codebass.io/posts/2026/01/claude-code/</guid><description>&lt;p&gt;Since the AI train left the station a few years back, I have been using ChatGPT a bit to help with my coding. I
+definitely didn&amp;rsquo;t integrate it into my work as much as some people. I never downloaded cursor, sparingly used co-pilot,
+and found the chat and code integration in IntelliJ and vsCode left a lot to be desired.&lt;/p&gt;
+&lt;p&gt;My main usage workflow would be something like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;code like normal&lt;/li&gt;
+&lt;li&gt;see some error during some troubleshooting&lt;/li&gt;
+&lt;li&gt;paste the error into ChatGPT&lt;/li&gt;
+&lt;li&gt;go back and forth manually between the IDE and ChatGPT until I fixed the issue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Very manual, but I felt pretty good about it. I wasn&amp;rsquo;t depending on AI too much, I was still doing most of the coding,
+so I felt that using ChatGPT to step in to get me unstuck was a perfectly good thing.&lt;/p&gt;</description></item></channel></rss>
