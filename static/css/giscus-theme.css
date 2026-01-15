@@ -1,0 +1,182 @@
+/*! Custom Giscus theme for codebass.io */
+
+main {
+  --color-prettylights-syntax-comment: #8b949e;
+  --color-prettylights-syntax-constant: #79c0ff;
+  --color-prettylights-syntax-entity: #d2a8ff;
+  --color-prettylights-syntax-storage-modifier-import: #c9d1d9;
+  --color-prettylights-syntax-entity-tag: #7ee787;
+  --color-prettylights-syntax-keyword: #ff7b72;
+  --color-prettylights-syntax-string: #a5d6ff;
+  --color-prettylights-syntax-variable: #ffa657;
+  --color-prettylights-syntax-brackethighlighter-unmatched: #f85149;
+  --color-prettylights-syntax-invalid-illegal-text: #f0f6fc;
+  --color-prettylights-syntax-invalid-illegal-bg: #8e1519;
+  --color-prettylights-syntax-carriage-return-text: #f0f6fc;
+  --color-prettylights-syntax-carriage-return-bg: #b62324;
+  --color-prettylights-syntax-string-regexp: #7ee787;
+  --color-prettylights-syntax-markup-list: #f2cc60;
+  --color-prettylights-syntax-markup-heading: #1f6feb;
+  --color-prettylights-syntax-markup-italic: #c9d1d9;
+  --color-prettylights-syntax-markup-bold: #c9d1d9;
+  --color-prettylights-syntax-markup-deleted-text: #ffdcd7;
+  --color-prettylights-syntax-markup-deleted-bg: #67060c;
+  --color-prettylights-syntax-markup-inserted-text: #aff5b4;
+  --color-prettylights-syntax-markup-inserted-bg: #033a16;
+  --color-prettylights-syntax-markup-changed-text: #ffdfb6;
+  --color-prettylights-syntax-markup-changed-bg: #5a1e02;
+  --color-prettylights-syntax-markup-ignored-text: #c9d1d9;
+  --color-prettylights-syntax-markup-ignored-bg: #1158c7;
+  --color-prettylights-syntax-meta-diff-range: #d2a8ff;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: #484f58;
+
+  /* Main colors - matching codebass terminal theme */
+  --color-canvas-default: #1b1c1d;
+  --color-canvas-overlay: #252629;
+  --color-canvas-inset: #161718;
+  --color-canvas-subtle: #252629;
+
+  /* Border colors */
+  --color-border-default: #3b3d42;
+  --color-border-muted: #2d2f34;
+  --color-border-subtle: rgba(255, 255, 255, 0.1);
+
+  /* Text colors */
+  --color-fg-default: #e5e5e5;
+  --color-fg-muted: #8b949e;
+  --color-fg-subtle: #6e7681;
+
+  /* Accent colors - matching terminal theme */
+  --color-accent-fg: #56b6c2;
+  --color-accent-emphasis: #56b6c2;
+  --color-accent-muted: rgba(86, 182, 194, 0.4);
+  --color-accent-subtle: rgba(86, 182, 194, 0.15);
+
+  /* Success colors - matching terminal green */
+  --color-success-fg: #27ca40;
+  --color-success-emphasis: #27ca40;
+
+  /* Attention/warning */
+  --color-attention-fg: #ffbd2e;
+  --color-attention-emphasis: #ffbd2e;
+  --color-attention-muted: rgba(255, 189, 46, 0.4);
+  --color-attention-subtle: rgba(255, 189, 46, 0.15);
+
+  /* Danger */
+  --color-danger-fg: #ff5f56;
+  --color-danger-emphasis: #ff5f56;
+
+  /* Neutral */
+  --color-neutral-emphasis-plus: #6e7681;
+  --color-neutral-emphasis: #6e7681;
+  --color-neutral-muted: rgba(110, 118, 129, 0.4);
+  --color-neutral-subtle: rgba(110, 118, 129, 0.1);
+
+  /* Button colors */
+  --color-btn-text: #e5e5e5;
+  --color-btn-bg: #252629;
+  --color-btn-border: #3b3d42;
+  --color-btn-hover-bg: #3b3d42;
+  --color-btn-hover-border: #56b6c2;
+  --color-btn-active-bg: #1b1c1d;
+  --color-btn-active-border: #56b6c2;
+  --color-btn-selected-bg: #252629;
+
+  --color-btn-primary-text: #1b1c1d;
+  --color-btn-primary-bg: #56b6c2;
+  --color-btn-primary-border: #56b6c2;
+  --color-btn-primary-hover-bg: #6bc9d4;
+  --color-btn-primary-hover-border: #6bc9d4;
+  --color-btn-primary-selected-bg: #56b6c2;
+  --color-btn-primary-disabled-text: rgba(27, 28, 29, 0.5);
+  --color-btn-primary-disabled-bg: rgba(86, 182, 194, 0.6);
+  --color-btn-primary-disabled-border: transparent;
+
+  /* Form elements */
+  --color-fg-on-emphasis: #1b1c1d;
+  --color-primer-fg-disabled: #484f58;
+  --color-primer-canvas-backdrop: rgba(27, 28, 29, 0.8);
+  --color-primer-canvas-sticky: rgba(27, 28, 29, 0.95);
+  --color-primer-border-active: #56b6c2;
+  --color-primer-border-contrast: rgba(255, 255, 255, 0.2);
+
+  /* Shadows */
+  --color-primer-shadow-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+  --color-primer-shadow-inset: inset 0 1px 0 rgba(0, 0, 0, 0.2);
+  --color-shadow-small: 0 0 transparent;
+  --color-shadow-medium: 0 3px 6px #000;
+  --color-shadow-large: 0 8px 24px #000;
+  --color-shadow-extra-large: 0 12px 48px #000;
+
+  /* Avatar */
+  --color-avatar-bg: rgba(255, 255, 255, 0.1);
+  --color-avatar-border: rgba(255, 255, 255, 0.1);
+  --color-avatar-stack-fade: #3b3d42;
+  --color-avatar-stack-fade-more: #252629;
+
+  /* Diff colors */
+  --color-diffBlob-addition-num-text: #aff5b4;
+  --color-diffBlob-addition-fg: #aff5b4;
+  --color-diffBlob-addition-num-bg: rgba(39, 202, 64, 0.3);
+  --color-diffBlob-addition-line-bg: rgba(39, 202, 64, 0.15);
+  --color-diffBlob-addition-word-bg: rgba(39, 202, 64, 0.4);
+  --color-diffBlob-deletion-num-text: #ffdcd7;
+  --color-diffBlob-deletion-fg: #ffdcd7;
+  --color-diffBlob-deletion-num-bg: rgba(248, 81, 73, 0.3);
+  --color-diffBlob-deletion-line-bg: rgba(248, 81, 73, 0.15);
+  --color-diffBlob-deletion-word-bg: rgba(248, 81, 73, 0.4);
+  --color-diffBlob-hunk-num-bg: rgba(86, 182, 194, 0.4);
+  --color-diffBlob-expander-icon: #8b949e;
+
+  /* Misc */
+  --color-codemirror-text: #e5e5e5;
+  --color-codemirror-bg: #1b1c1d;
+  --color-codemirror-gutters-bg: #1b1c1d;
+  --color-codemirror-guttermarker-text: #1b1c1d;
+  --color-codemirror-guttermarker-subtle-text: #6e7681;
+  --color-codemirror-linenumber-text: #8b949e;
+  --color-codemirror-cursor: #e5e5e5;
+  --color-codemirror-selection-bg: rgba(86, 182, 194, 0.4);
+  --color-codemirror-activeline-bg: rgba(110, 118, 129, 0.1);
+  --color-codemirror-matchingbracket-text: #e5e5e5;
+  --color-codemirror-lines-bg: #1b1c1d;
+  --color-codemirror-syntax-comment: #8b949e;
+  --color-codemirror-syntax-constant: #79c0ff;
+  --color-codemirror-syntax-entity: #d2a8ff;
+  --color-codemirror-syntax-keyword: #ff7b72;
+  --color-codemirror-syntax-storage: #ff7b72;
+  --color-codemirror-syntax-string: #a5d6ff;
+  --color-codemirror-syntax-support: #79c0ff;
+  --color-codemirror-syntax-variable: #ffa657;
+
+  --color-header-text: rgba(255, 255, 255, 0.7);
+  --color-header-bg: #1b1c1d;
+  --color-header-divider: #3b3d42;
+  --color-header-logo: #f0f6fc;
+
+  --color-scale-gray-7: #3b3d42;
+  --color-scale-blue-8: #0c2d6b;
+
+  color-scheme: dark;
+}
+
+/* Custom styling overrides */
+main .gsc-comment-box {
+  border-radius: 8px;
+}
+
+main .gsc-comment {
+  border-radius: 8px;
+}
+
+main .gsc-main {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+main .gsc-reactions-button {
+  border-radius: 6px;
+}
+
+main .gsc-reply-box {
+  border-radius: 8px;
+}

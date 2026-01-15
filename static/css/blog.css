@@ -312,3 +312,23 @@ h1, h2, h3, h4, h5, h6 {
 [data-theme="light"] .terminal-body {
     background: #2d2d2d;
 }
+
+/* Giscus comments section */
+.giscus-comments {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+.giscus-comments h3 {
+    margin-bottom: 1rem;
+}
+
+[data-theme=light] .giscus-comments {
+    border-top-color: #222 !important;
+}
+
+[data-theme=light] .giscus-comments h3 {
+    color: #222;
+}
