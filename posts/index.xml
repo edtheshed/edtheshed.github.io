@@ -65,7 +65,7 @@ them offered me the job. So not 100% success, but the stark difference between p
 <p>First, I stopped relying on my experience to speak for itself. I had to <strong>actively prepare specific examples</strong> with full
 context – the problem, the constraints, the decision process, the outcome. When they asked &ldquo;tell me about a technical
 decision,&rdquo; I could walk through the entire thought process because I&rsquo;d documented it beforehand.</p>
-<p>Second, I <strong>built something new from scratch</strong>. The booking system wasn&rsquo;t just practice – it forced me to remember all
+<p>Second, I <strong>built something new from scratch</strong>. The booking system wasn&rsquo;t just practice. it forced me to remember all
 the things I&rsquo;d forgotten I knew. Error handling, monitoring, database design, authentication flows. You can&rsquo;t bullshit
 your way through building an actual working system.</p>
 <p>Third, I <strong>went deeper on my past work</strong>. Creating those architecture diagrams wasn&rsquo;t just about having pretty pictures
