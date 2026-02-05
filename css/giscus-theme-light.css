@@ -1,0 +1,182 @@
+/*! Custom Giscus light theme for codebass.io */
+
+main {
+  --color-prettylights-syntax-comment: #6a737d;
+  --color-prettylights-syntax-constant: #005cc5;
+  --color-prettylights-syntax-entity: #6f42c1;
+  --color-prettylights-syntax-storage-modifier-import: #24292e;
+  --color-prettylights-syntax-entity-tag: #22863a;
+  --color-prettylights-syntax-keyword: #d73a49;
+  --color-prettylights-syntax-string: #032f62;
+  --color-prettylights-syntax-variable: #e36209;
+  --color-prettylights-syntax-brackethighlighter-unmatched: #cb2431;
+  --color-prettylights-syntax-invalid-illegal-text: #24292e;
+  --color-prettylights-syntax-invalid-illegal-bg: #d73a49;
+  --color-prettylights-syntax-carriage-return-text: #fafbfc;
+  --color-prettylights-syntax-carriage-return-bg: #d73a49;
+  --color-prettylights-syntax-string-regexp: #22863a;
+  --color-prettylights-syntax-markup-list: #735c0f;
+  --color-prettylights-syntax-markup-heading: #005cc5;
+  --color-prettylights-syntax-markup-italic: #24292e;
+  --color-prettylights-syntax-markup-bold: #24292e;
+  --color-prettylights-syntax-markup-deleted-text: #b31d28;
+  --color-prettylights-syntax-markup-deleted-bg: #ffeef0;
+  --color-prettylights-syntax-markup-inserted-text: #22863a;
+  --color-prettylights-syntax-markup-inserted-bg: #f0fff4;
+  --color-prettylights-syntax-markup-changed-text: #e36209;
+  --color-prettylights-syntax-markup-changed-bg: #ffebda;
+  --color-prettylights-syntax-markup-ignored-text: #f6f8fa;
+  --color-prettylights-syntax-markup-ignored-bg: #005cc5;
+  --color-prettylights-syntax-meta-diff-range: #6f42c1;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: #959da5;
+
+  /* Main colors - light theme */
+  --color-canvas-default: #ffffff;
+  --color-canvas-overlay: #ffffff;
+  --color-canvas-inset: #f6f8fa;
+  --color-canvas-subtle: #f6f8fa;
+
+  /* Border colors */
+  --color-border-default: #d0d7de;
+  --color-border-muted: #d8dee4;
+  --color-border-subtle: rgba(0, 0, 0, 0.1);
+
+  /* Text colors */
+  --color-fg-default: #24292f;
+  --color-fg-muted: #57606a;
+  --color-fg-subtle: #6e7781;
+
+  /* Accent colors */
+  --color-accent-fg: #0969da;
+  --color-accent-emphasis: #0969da;
+  --color-accent-muted: rgba(9, 105, 218, 0.4);
+  --color-accent-subtle: rgba(9, 105, 218, 0.1);
+
+  /* Success colors */
+  --color-success-fg: #1a7f37;
+  --color-success-emphasis: #1a7f37;
+
+  /* Attention/warning */
+  --color-attention-fg: #9a6700;
+  --color-attention-emphasis: #9a6700;
+  --color-attention-muted: rgba(154, 103, 0, 0.4);
+  --color-attention-subtle: rgba(154, 103, 0, 0.1);
+
+  /* Danger */
+  --color-danger-fg: #cf222e;
+  --color-danger-emphasis: #cf222e;
+
+  /* Neutral */
+  --color-neutral-emphasis-plus: #24292f;
+  --color-neutral-emphasis: #6e7781;
+  --color-neutral-muted: rgba(175, 184, 193, 0.4);
+  --color-neutral-subtle: rgba(175, 184, 193, 0.2);
+
+  /* Button colors */
+  --color-btn-text: #24292f;
+  --color-btn-bg: #f6f8fa;
+  --color-btn-border: #d0d7de;
+  --color-btn-hover-bg: #e8ebef;
+  --color-btn-hover-border: #d0d7de;
+  --color-btn-active-bg: #d6dae0;
+  --color-btn-active-border: #d0d7de;
+  --color-btn-selected-bg: #e8ebef;
+
+  --color-btn-primary-text: #ffffff;
+  --color-btn-primary-bg: #0969da;
+  --color-btn-primary-border: #0969da;
+  --color-btn-primary-hover-bg: #0860c4;
+  --color-btn-primary-hover-border: #0860c4;
+  --color-btn-primary-selected-bg: #0757b5;
+  --color-btn-primary-disabled-text: rgba(255, 255, 255, 0.5);
+  --color-btn-primary-disabled-bg: rgba(9, 105, 218, 0.6);
+  --color-btn-primary-disabled-border: transparent;
+
+  /* Form elements */
+  --color-fg-on-emphasis: #ffffff;
+  --color-primer-fg-disabled: #8c959f;
+  --color-primer-canvas-backdrop: rgba(175, 184, 193, 0.5);
+  --color-primer-canvas-sticky: rgba(255, 255, 255, 0.95);
+  --color-primer-border-active: #0969da;
+  --color-primer-border-contrast: rgba(0, 0, 0, 0.1);
+
+  /* Shadows */
+  --color-primer-shadow-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  --color-primer-shadow-inset: inset 0 1px 0 rgba(208, 215, 222, 0.2);
+  --color-shadow-small: 0 1px 0 rgba(27, 31, 36, 0.04);
+  --color-shadow-medium: 0 3px 6px rgba(140, 149, 159, 0.15);
+  --color-shadow-large: 0 8px 24px rgba(140, 149, 159, 0.2);
+  --color-shadow-extra-large: 0 12px 48px rgba(140, 149, 159, 0.3);
+
+  /* Avatar */
+  --color-avatar-bg: #ffffff;
+  --color-avatar-border: rgba(0, 0, 0, 0.1);
+  --color-avatar-stack-fade: #afb8c1;
+  --color-avatar-stack-fade-more: #d8dee4;
+
+  /* Diff colors */
+  --color-diffBlob-addition-num-text: #24292f;
+  --color-diffBlob-addition-fg: #24292f;
+  --color-diffBlob-addition-num-bg: rgba(26, 127, 55, 0.3);
+  --color-diffBlob-addition-line-bg: rgba(26, 127, 55, 0.15);
+  --color-diffBlob-addition-word-bg: rgba(26, 127, 55, 0.4);
+  --color-diffBlob-deletion-num-text: #24292f;
+  --color-diffBlob-deletion-fg: #24292f;
+  --color-diffBlob-deletion-num-bg: rgba(207, 34, 46, 0.3);
+  --color-diffBlob-deletion-line-bg: rgba(207, 34, 46, 0.15);
+  --color-diffBlob-deletion-word-bg: rgba(207, 34, 46, 0.4);
+  --color-diffBlob-hunk-num-bg: rgba(9, 105, 218, 0.4);
+  --color-diffBlob-expander-icon: #57606a;
+
+  /* Misc */
+  --color-codemirror-text: #24292f;
+  --color-codemirror-bg: #ffffff;
+  --color-codemirror-gutters-bg: #ffffff;
+  --color-codemirror-guttermarker-text: #ffffff;
+  --color-codemirror-guttermarker-subtle-text: #6e7781;
+  --color-codemirror-linenumber-text: #57606a;
+  --color-codemirror-cursor: #24292f;
+  --color-codemirror-selection-bg: rgba(9, 105, 218, 0.3);
+  --color-codemirror-activeline-bg: rgba(175, 184, 193, 0.1);
+  --color-codemirror-matchingbracket-text: #24292f;
+  --color-codemirror-lines-bg: #ffffff;
+  --color-codemirror-syntax-comment: #6a737d;
+  --color-codemirror-syntax-constant: #005cc5;
+  --color-codemirror-syntax-entity: #6f42c1;
+  --color-codemirror-syntax-keyword: #d73a49;
+  --color-codemirror-syntax-storage: #d73a49;
+  --color-codemirror-syntax-string: #032f62;
+  --color-codemirror-syntax-support: #005cc5;
+  --color-codemirror-syntax-variable: #e36209;
+
+  --color-header-text: rgba(0, 0, 0, 0.7);
+  --color-header-bg: #f6f8fa;
+  --color-header-divider: #d0d7de;
+  --color-header-logo: #24292f;
+
+  --color-scale-gray-7: #d0d7de;
+  --color-scale-blue-8: #ddf4ff;
+
+  color-scheme: light;
+}
+
+/* Custom styling overrides */
+main .gsc-comment-box {
+  border-radius: 8px;
+}
+
+main .gsc-comment {
+  border-radius: 8px;
+}
+
+main .gsc-main {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+main .gsc-reactions-button {
+  border-radius: 6px;
+}
+
+main .gsc-reply-box {
+  border-radius: 8px;
+}
