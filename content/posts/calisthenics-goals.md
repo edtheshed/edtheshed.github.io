@@ -2,7 +2,7 @@
 title: "Calisthenics goals"
 date: 2026-01-11
 draft: false
-description: "Continuing my fitness journey"
+description: "My 2026 calisthenics goals: handstands, front levers, and ring work. A look at my fitness journey from climbing to bodyweight training."
 tags: [ "fitness" ]
 ---
 

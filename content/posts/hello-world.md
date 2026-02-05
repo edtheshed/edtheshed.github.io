@@ -2,7 +2,7 @@
 title: "Hello World"
 date: 2026-01-10
 draft: false
-description: "My first post"
+description: "Welcome to the CodeBass blog. I'm Edward Rixon, a software developer in London writing about tech, job searching, and calisthenics training."
 tags: [ "intro" ]
 ---
 
@@ -21,4 +21,4 @@ Enjoy the read.
 
 ✌️x
 
-{{< slideshow "/img/hello/IMG_3358.jpeg" "/img/hello/IMG_3598.jpeg" "/img/hello/IMG_3679.jpeg" "/img/hello/IMG_4614.jpeg" >}}
+{{< slideshow "/img/me/me2.jpeg" "/img/hello/IMG_3358.jpeg" "/img/hello/IMG_3598.jpeg" "/img/hello/IMG_3679.jpeg" "/img/hello/IMG_4614.jpeg" >}}

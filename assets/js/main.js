@@ -23,13 +23,37 @@ function detectOSColorTheme() {
   }
 }
 
+// Update giscus theme to match site theme.
+function setGiscusTheme(theme) {
+  const origin = window.location.origin;
+  const giscusTheme = theme === "light"
+    ? origin + "/css/giscus-theme-light.css"
+    : origin + "/css/giscus-theme.css";
+  const iframe = document.querySelector("iframe.giscus-frame");
+  if (iframe) {
+    iframe.contentWindow.postMessage(
+      { giscus: { setConfig: { theme: giscusTheme } } },
+      "https://giscus.app"
+    );
+  }
+}
+
 // Switch the theme.
 function switchTheme(e) {
   const currentTheme = document.documentElement.getAttribute("data-theme");
   const newTheme = currentTheme === "dark" ? "light" : "dark";
   localStorage.setItem("theme", newTheme);
   document.documentElement.setAttribute("data-theme", newTheme);
+  setGiscusTheme(newTheme);
 }
+
+// When giscus iframe loads, sync its theme with the current site theme.
+window.addEventListener("message", function (event) {
+  if (event.origin !== "https://giscus.app") return;
+  if (!(typeof event.data === "object" && event.data.giscus)) return;
+  const currentTheme = document.documentElement.getAttribute("data-theme");
+  setGiscusTheme(currentTheme);
+});
 
 // Event listener
 if (themeToggle) {

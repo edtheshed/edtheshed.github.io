@@ -2,7 +2,7 @@
 title: "Claude Code"
 date: 2026-01-15
 draft: false
-description: "My thoughts on the code agent"
+description: "After a week with Claude Code, I'm impressed. How AI coding assistants are changing development and democratising software creation for everyone."
 tags: [ "coding", "ai" ]
 ---
 

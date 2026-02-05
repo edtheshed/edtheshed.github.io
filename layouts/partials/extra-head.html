@@ -1,0 +1,25 @@
+<!-- Open Graph -->
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+{{ if .IsHome }}
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ .Site.Title }}" />
+<meta property="og:description" content="{{ .Site.Params.description }}" />
+{{ else }}
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 200 }}{{ end }}" />
+{{ with .Params.image }}<meta property="og:image" content="{{ . | absURL }}" />{{ end }}
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" />
+{{ with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}" />{{ end }}
+{{ range .Params.tags }}<meta property="article:tag" content="{{ . }}" />
+{{ end }}
+{{ end }}
+
+<!-- Twitter Card enhancements -->
+{{ with .Params.image }}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="{{ . | absURL }}" />
+{{ else }}
+<meta name="twitter:card" content="summary" />
+{{ end }}
