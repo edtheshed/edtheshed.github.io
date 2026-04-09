@@ -1,23 +1,23 @@
 baseURL = 'https://codebass.io/'
 languageCode = 'en-us'
-title = 'CodeBass Ltd'
+title = 'Edward Rixon'
 theme = "hello-4s3ti"
 
 # Metadata mostly used in document's head
-description = "CodeBass io"
-keywords = "codebass, software"
+description = ""
+keywords = ""
 images = []
 
 [languages]
 [languages.en]
-title = "codebass.io"
+title = "Edward Rixon"
 subtitle = ""
 keywords = ""
 copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 readOtherPosts = "Read other posts"
 
 [languages.en.params.logo]
-logoText = "codebass.io"
+logoText = "edward@codebass.io:~/"
 logoHomeLink = "/"
 # or
 #
@@ -73,7 +73,7 @@ IsMultiLangual = false
 posts = "/posts/:year/:month/:title/"
 
 [author]
-name = "codebass ltd"
+name = "Edward Rixon"
 
 [blackfriday]
 hrefTargetBlank = true
@@ -96,16 +96,16 @@ backgroundEffects = true
 
 # Metadata mostly used in document's head
 #
-description = "codebass.io"
+description = ""
 keywords = ""
 images = [""]
 
 # Home page title
-homeTitle = "codebass.io"
+homeTitle = ""
 
 # Home subtitle of the index page.
 #
-homeSubtitle = "CodeBass provides an expert software development service. With experience in multiple industries, across multiple paradigms, CodeBass can be entrusted to help your business reach the next level."
+homeSubtitle = ""
 
 # Prefix of link to the git commit detail page. GitInfo must be enabled.
 #
@@ -235,7 +235,7 @@ url  = "https://github.com/edtheshed"
 
 [[params.social]]
 name = "linkedin"
-url  = "https://www.linkedin.com/company/codebass-ltd"
+url  = "https://www.linkedin.com/in/edwardrixon/"
 
 [[params.social]]
 name = "stackoverflow"
